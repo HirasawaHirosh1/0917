@@ -23,7 +23,7 @@
     <ul id= "chat-ul"></ul>
 </div>
 <div id="input-field">
-    名前：<input type="text" id="username"><div>
+    <span id="username"></span>
         <div>
 <div id="input-field">
 <textarea id="text" cols="30" rows="10"></textarea>
@@ -107,9 +107,6 @@ auth.onAuthStateChanged(user => {
     uid.textContent = 'ログアウト中'
   }
 })
-document.getElementById("username").innerHTML = ${user.displayName} ;
-
-    
 
 
 </script>
