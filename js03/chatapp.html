@@ -107,7 +107,8 @@ auth.onAuthStateChanged(user => {
     uid.textContent = 'ログアウト中'
   }
 })
-${user.displayName}
+document.getElementById("username").innerHTML = ${user.displayName} ;
+
     
 
 
